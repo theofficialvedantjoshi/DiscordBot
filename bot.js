@@ -1,7 +1,7 @@
 console.log("beep! beep!");
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login('Nzk0OTE0ODEyNjgwMzM5NDY3.X_BwHA.LPRJw9TL6E3X_I3XYyQ6f0O1Tv0');
+client.login(process.env.token);
 const fetch = require('node-fetch');
 client.on('ready', readyDiscord);
 
